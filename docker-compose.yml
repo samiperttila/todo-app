@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  todo-app:
+    build: .
+    image: todo-app
+    ports:
+      - 1234:80
